@@ -1185,7 +1185,7 @@ img#wpstats {
 ================================================== */
 /* ----- Top Header Bar ----- */
 .top-header {
-	background-color: #0d1d31;
+	background-color: #222;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	text-align: center;
 }
@@ -2324,8 +2324,8 @@ input[type="checkbox"] {
 
 #secondary .widget-title {
 	background-clip: content-box;
-	background-color: #0d1d31;
-	border: 1px solid #0d1d31;
+	background-color: #222;
+	border: 1px solid #222;
 	color: #fff;
 	font-family: "Roboto Condensed", sans-serif;
 	font-size: 16px;
@@ -2400,7 +2400,7 @@ input.search-field {
 /* Single Event
 ================================================== */
 .single-event-info {
-	background-color: #0d1d31;
+	background-color: #222;
 	margin-bottom: -1px;
 	margin-top: 0;
 	position: relative;
@@ -2582,7 +2582,7 @@ input.search-field {
 
 .new-event-background {
 	background-attachment: fixed;
-	background-color: #0d1d31;
+	background-color: #222;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -2748,7 +2748,7 @@ input.search-field {
 }
 
 .our-team .speaker-topic-title h4 {
-	background-color: #0d1d31;
+	background-color: #222;
 	color: #fff;
 	display: block;
 	font-size: 14px;
@@ -2788,7 +2788,7 @@ input.search-field {
 
 .list-bg-box {
 	background-attachment: fixed;
-	background-color: #0d1d31;
+	background-color: #222;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;

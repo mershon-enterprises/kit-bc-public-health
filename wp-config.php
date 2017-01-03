@@ -97,10 +97,10 @@ else:
      *
      * If you are only running on Pantheon, you can ignore this block.
      */
-    define('DB_NAME',          'database_name');
-    define('DB_USER',          'database_username');
-    define('DB_PASSWORD',      'database_password');
-    define('DB_HOST',          'database_host');
+    define('DB_NAME',          $_ENV['DB_NAME']);
+    define('DB_USER',          $_ENV['DB_USER']);
+    define('DB_PASSWORD',      $_ENV['DB_PASSWORD']);
+    define('DB_HOST',          $_ENV['DB_HOST'] . ':' . $_ENV['DB_PORT']);
     define('DB_CHARSET',       'utf8');
     define('DB_COLLATE',       '');
     define('AUTH_KEY',         'put your unique phrase here');
@@ -111,6 +111,7 @@ else:
     define('SECURE_AUTH_SALT', 'put your unique phrase here');
     define('LOGGED_IN_SALT',   'put your unique phrase here');
     define('NONCE_SALT',       'put your unique phrase here');
+    define('UPLOADS',          'wp-content/files');
   endif;
 endif;
 
